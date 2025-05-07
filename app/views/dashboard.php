@@ -375,7 +375,7 @@
                         // Verifica se a localização é válida
                         if (lat && lng) {
                             L.marker([lat, lng]).addTo(map)
-                                .bindPopup(`<b>Visitante</b><br>${visit.city}, ${visit.country}`)
+                                .bindPopup(`<b>Visitante</b><br>${visit.city}, ${visit.state}, ${visit.country}`)
                                 .openPopup();
                         }
                     });
