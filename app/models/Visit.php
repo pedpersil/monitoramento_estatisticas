@@ -194,7 +194,7 @@ class Visit {
         $offset = ($page - 1) * $limit;
         $where = $this->buildPeriodCondition($period);
         $stmt = $this->pdo->prepare("
-            SELECT id, visit_date, ip_address, os, device_type, state, referrer, page_url
+            SELECT id, visit_date, ip_address, os, device_type, country, state, city, referrer, page_url
             FROM visits
             $where
             ORDER BY visit_date DESC

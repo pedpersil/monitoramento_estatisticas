@@ -70,7 +70,9 @@
                     <th>IP do Visitante</th>
                     <th>Dispositivo</th>
                     <th>Sistema Operacional</th>
+                    <th>Cidade</th>
                     <th>Estado</th>
+                    <th>País</th>
                     <th>Página de Referência</th>
                     <th>Página Visitada</th>
                 </tr>
@@ -99,7 +101,9 @@
                                         <td>${visit.ip_address}</td>
                                         <td>${getDeviceIcon(visit.device_type)}</td>
                                         <td>${visit.os}</td>
+                                        <td>${visit.city}</td>
                                         <td>${visit.state}</td>
+                                        <td>${visit.country}</td>
                                         <td>${visit.referrer === 'Acesso Direto' ? visit.referrer : `<a href="${visit.referrer}" target="_blank">${new URL(visit.referrer).hostname}</a>`}</td>
                                         <td>${visit.page_url}</td>
                                     `;
