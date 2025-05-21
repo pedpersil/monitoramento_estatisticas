@@ -1,5 +1,5 @@
 <a href="https://pedrosilva.tech/">
-<img src="https://pedrosilva.tech/monitoramento_estatisticas/public/images/insightTrack.png" alt="InsightTrack Logo" style="height: 100px; margin-right: 10px;">
+<img src="https://pedrosilva.tech/insighttrack/public/images/insightTrack.png" alt="InsightTrack Logo" style="height: 100px; margin-right: 10px;">
 </a>
 
 # InsightTrack - Sistema de Monitoramento e Estatísticas
